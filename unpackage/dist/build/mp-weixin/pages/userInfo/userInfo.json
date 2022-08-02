@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#EDFBDF",
+  "backgroundColor": "#f5f5f5",
+  "usingComponents": {
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-line-progress": "/node-modules/uview-ui/components/u-line-progress/u-line-progress",
+    "u-divider": "/node-modules/uview-ui/components/u-divider/u-divider",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon"
+  }
+}

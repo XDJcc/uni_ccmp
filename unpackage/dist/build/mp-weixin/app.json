@@ -1,0 +1,31 @@
+{
+	"pages": [
+		"pages/index/index"
+	],
+	"subPackages": [
+		{
+			"root": "pages/login",
+			"pages": [
+				"login",
+				"webviewPage/webviewPage",
+				"browseMd/browseMd"
+			]
+		},
+		{
+			"root": "pages/userInfo",
+			"pages": [
+				"userInfo"
+			]
+		}
+	],
+	"window": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "悦调用户共创社区",
+		"navigationBarBackgroundColor": "#D0F2B3",
+		"backgroundColor": "#FFFFFF"
+	},
+	"usingComponents": {
+		"page-container": "/components/PageContainer/PageContainer"
+	},
+	"sitemapLocation": "sitemap.json"
+}

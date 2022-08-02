@@ -1,0 +1,1 @@
+<view class="page_container" style="{{'background-color:'+(backgroundColor)+';'}}"><slot></slot><view style="{{'height:'+(vuex_iphoneSystemInfo.bottom+'px')+';'}}"></view></view>

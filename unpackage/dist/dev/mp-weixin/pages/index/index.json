@@ -1,0 +1,12 @@
+{
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 10,
+  "backgroundColor": "#fff",
+  "usingComponents": {
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
+    "u-sticky": "/node-modules/uview-ui/components/u-sticky/u-sticky",
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}
