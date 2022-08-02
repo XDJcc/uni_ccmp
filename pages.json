@@ -1,0 +1,60 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 10,
+				"backgroundColor": "#fff"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "pages/login",
+			"pages": [{
+				"path": "login",
+				"style": {
+					"navigationBarTitleText": "登陆界面",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "webviewPage/webviewPage",
+				"style": {
+					"navigationBarTitleText": "关注公众号",
+					"enablePullDownRefresh": false
+				}
+
+			}    ,{
+                    "path" : "browseMd/browseMd",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		},
+		{
+			"root": "pages/userInfo",
+			"pages": [{
+				"path": "userInfo",
+				"style": {
+					"navigationBarTitleText": "个人中心",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#EDFBDF",
+					"backgroundColor": "#f5f5f5"
+				}
+			}]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "悦调用户共创社区",
+		"navigationBarBackgroundColor": "#D0F2B3",
+		"backgroundColor": "#FFFFFF"
+	}
+}
